@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Saúde Integral</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        header, section, footer { padding: 20px; margin: auto; max-width: 800px; }
+        img { max-width: 100%; height: auto; }
+        .team { display: flex; justify-content: space-between; }
+        .team-member { text-align: center; }
+        form { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clínica Saúde Integral</h1>
+        <h2>Cuidando integralmente de você</h2>
+    </header>
+
+    <section>
+        <h2>Nossos Serviços</h2>
+        <div>
+            <h3>Atendimento Médico</h3>
+            <img src="HTML/AtendimentoMédico.jpg" alt="Atendimento Médico">
+            <p>Oferecemos consultas com especialistas experientes para cuidar da sua saúde de forma completa.</p>
+        </div>
+        <div>
+            <h3>Exames Laboratoriais e Imagem</h3>
+            <img src="HTML/ExamesLaboratoriaiseImageM.jpg" alt="Exames Laboratoriais">
+            <p>Resultados rápidos e precisos com a melhor tecnologia em exames laboratoriais e diagnósticos por imagem.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Nossa Equipe</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="HTML/ClínicoGeral.jpg" alt="Dr. João Silva">
+                <p>Dr. João Silva<br><em>Clínico Geral</em></p>
+            </div>
+            <div class="team-member">
+                <img src="HTML/Nutricionista.jpg" alt="Dra. Maria Costa">
+                <p>Dra. Maria Costa<br><em>Nutricionista</em></p>
+            </div>
+            <div class="team-member">
+                <img src="HTML/Radiologista.jpg" alt="Dr. Lucas Souza">
+                <p>Dr. Lucas Souza<br><em>Radiologista</em></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Quer saber mais?</h2>
+        <form action="#">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+            
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade"><br><br>
+
+            <label for="estado">Estado:</label><br>
+            <input type="text" id="estado" name="estado"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Clínica Saúde Integral. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
